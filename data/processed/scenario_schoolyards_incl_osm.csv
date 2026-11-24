@@ -1,0 +1,26 @@
+step,id,name,district,lon,lat,children_newly_reached,cumulative
+1,09G23,Hauptmann-von-Köpenick-Schule (Grundschule),Treptow-Köpenick,13.5808,52.45615,356,356
+2,04G26,Birger-Forell-Grundschule,Charlottenburg-Wilmersdorf,13.32194,52.4805,329,685
+3,11G21,Schule Am Faulen See (Grundschule),Lichtenberg,13.49827,52.55183,278,963
+4,03G38,Grundschule im Blumenviertel,Pankow,13.45758,52.53515,277,1240
+5,05G23,Grundschule am Brandwerder,Spandau,13.15293,52.53587,212,1452
+6,03G13,Grundschule in Rosenthal,Pankow,13.3761,52.59112,210,1662
+7,04G17,Johann-Peter-Hebel-Grundschule,Charlottenburg-Wilmersdorf,13.31953,52.49517,208,1870
+8,11G12,Lew-Tolstoi-Schule (Grundschule),Lichtenberg,13.53679,52.49184,204,2074
+9,05G27,Peter-Härtling-Grundschule ,Spandau,13.19769,52.54392,202,2276
+10,04G14,Reinhold-Otto-Grundschule,Charlottenburg-Wilmersdorf,13.2684,52.51323,201,2477
+11,06G29,Grundschule am Karpfenteich,Steglitz-Zehlendorf,13.33285,52.41741,201,2678
+12,07G32,Bruno-H.-Bürgel-Grundschule,Tempelhof-Schöneberg,13.4025,52.40492,176,2854
+13,06G20,Alt-Lankwitzer Grundschule,Steglitz-Zehlendorf,13.35249,52.43736,166,3020
+14,06G26,Käthe-Kruse-Grundschule,Steglitz-Zehlendorf,13.31012,52.43814,163,3183
+15,05G01,Ernst-Ludwig-Heim-Grundschule,Spandau,13.20686,52.53015,161,3344
+16,03G39,Grundschule Wolkenstein,Pankow,13.42031,52.56507,158,3502
+17,05G17,Astrid-Lindgren-Grundschule,Spandau,13.15673,52.53087,158,3660
+18,06G33,Friedrich-Drake-Grundschule,Steglitz-Zehlendorf,13.30783,52.43246,156,3816
+19,06G25,Clemens-Brentano-Grundschule,Steglitz-Zehlendorf,13.29315,52.43361,149,3965
+20,06G22,Giesensdorfer Grundschule,Steglitz-Zehlendorf,13.31103,52.42222,148,4113
+21,09G30,Kiefholz-Grundschule,Treptow-Köpenick,13.45603,52.48629,142,4255
+22,12G24,Renée-Sintenis-Grundschule,Reinickendorf,13.27247,52.63681,141,4396
+23,07G23,Schätzelberg-Grundschule,Tempelhof-Schöneberg,13.40104,52.44866,141,4537
+24,03G14,Bornholmer Grundschule,Pankow,13.40772,52.55562,134,4671
+25,07G02,Finow-Grundschule,Tempelhof-Schöneberg,13.34252,52.49818,128,4799

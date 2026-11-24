@@ -1,0 +1,51 @@
+name: Daten aktualisieren
+
+# Lädt die Quelldaten neu, rechnet alle Kennzahlen und öffnet einen Pull Request.
+# Schlägt ein Schritt fehl (Download, Validierung, Tests), entsteht kein Pull Request:
+# der veröffentlichte Datenstand bleibt unverändert.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+      - run: pip install -r pipeline/requirements.txt
+      - run: python -m pytest tests/pipeline -q
+      - run: python -m pipeline.download --force
+      - run: python -m pipeline.walk_network
+      - run: python -m pipeline.osm_features
+      - run: python -m analysis.01_home_accessibility
+      - run: python -m analysis.02_planning_area_indicators
+      - run: python -m analysis.03_findings
+      - run: python -m pipeline.export_frontend
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # The unit tests include consistency checks of the freshly exported data.
+      - run: npm test
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: daten-aktualisierung
+          title: Datenstand aktualisieren
+          commit-message: Datenstand aktualisieren
+          body: |
+            Automatisch erzeugt. Bitte vor dem Zusammenführen prüfen:
+            - Haben sich Kernzahlen in `data/processed/findings.json` verändert? Dann `docs/FINDINGS.md` und die Texte der Startseite anpassen.
+            - `tests/unit/data.test.ts` enthält die veröffentlichten Kernzahlen und schlägt bei Abweichungen fehl.
+          add-paths: |
+            public/data
+            data/processed

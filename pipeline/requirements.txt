@@ -1,0 +1,10 @@
+geopandas
+pandas
+shapely
+pyproj
+pyogrio
+scipy
+requests
+osmium
+matplotlib
+pytest

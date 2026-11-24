@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "tests/unit/**/*"],
+  "compilerOptions": {
+    // Unit tests run in Node and read the published data files from disk.
+    "types": ["node"],
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitest.tsbuildinfo"
+  }
+}

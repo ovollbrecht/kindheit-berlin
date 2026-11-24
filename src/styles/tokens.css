@@ -1,0 +1,44 @@
+/* Design tokens: every colour, size and font used in the application is defined here. */
+:root {
+  --color-paper: #faf8f3;
+  --color-surface: #ffffff;
+  --color-ink: #1a1c1e;
+  --color-ink-secondary: #53565a;
+  --color-rule: #ddd8cc;
+  --color-rule-soft: #ebe7de;
+  --color-accent: #1c5cab;
+  --color-accent-soft: #e6eef8;
+  --color-highlight: #b8431a;
+  --color-note: #f3efe4;
+
+  --series-blue: #2a78d6;
+  --series-orange: #eb6834;
+  --series-aqua: #1baf7a;
+  --chart-grid: #e1ddd2;
+  --chart-axis: #b9b5a9;
+
+  --font-text: 'Source Sans 3 Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Source Serif 4 Variable', 'Iowan Old Style', Georgia, serif;
+
+  --size-small: 0.875rem;
+  --size-text: 1.0625rem;
+  --size-lead: clamp(1.2rem, 1.05rem + 0.6vw, 1.45rem);
+  --size-h3: 1.25rem;
+  --size-h2: clamp(1.6rem, 1.3rem + 1.3vw, 2.3rem);
+  --size-h1: clamp(2.3rem, 1.5rem + 3.6vw, 4.2rem);
+  --size-figure: clamp(2.2rem, 1.6rem + 2.4vw, 3.4rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+
+  --width-page: 76rem;
+  --width-text: 41rem;
+  --radius: 4px;
+}

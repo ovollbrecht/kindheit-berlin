@@ -1,0 +1,26 @@
+step,id,name,district,lon,lat,children_newly_reached,cumulative
+1,12G26,Märkische Grundschule,Reinickendorf,13.36005,52.59524,1597,1597
+2,04G11,Helmuth-James-von-Moltke-Grundschule,Charlottenburg-Wilmersdorf,13.30126,52.53925,591,2188
+3,07G35,Nahariya-Grundschule,Tempelhof-Schöneberg,13.41958,52.3912,526,2714
+4,01G37,Heinrich-Seidel-Grundschule,Mitte,13.39299,52.54719,506,3220
+5,09G15,Schule am Mohnweg (Grundschule),Treptow-Köpenick,13.53721,52.40716,483,3703
+6,09G18,Schule in der Köllnischen Vorstadt (Grundschule),Treptow-Köpenick,13.56447,52.4391,459,4162
+7,12G09,Grundschule an der Peckwisch,Reinickendorf,13.34813,52.59315,425,4587
+8,05G18,Grundschule im Beerwinkel,Spandau,13.15696,52.54868,421,5008
+9,12G32,Charlie-Chaplin-Grundschule,Reinickendorf,13.36527,52.59748,403,5411
+10,08G20,Sonnen-Schule (Grundschule),Neukölln,13.46695,52.47182,389,5800
+11,11G21,Schule Am Faulen See (Grundschule),Lichtenberg,13.49827,52.55183,380,6180
+12,10G09,Grundschule am Bürgerpark,Marzahn-Hellersdorf,13.56501,52.55087,377,6557
+13,09G23,Hauptmann-von-Köpenick-Schule (Grundschule),Treptow-Köpenick,13.5808,52.45615,356,6913
+14,10G25,Grundschule am Schleipfuhl,Marzahn-Hellersdorf,13.60816,52.52928,347,7260
+15,05G22,Christian-Morgenstern-Grundschule,Spandau,13.16932,52.52195,333,7593
+16,04G26,Birger-Forell-Grundschule,Charlottenburg-Wilmersdorf,13.32194,52.4805,329,7922
+17,12G13,Franz-Marc-Grundschule,Reinickendorf,13.28268,52.58817,325,8247
+18,12G30,Reineke-Fuchs-Grundschule,Reinickendorf,13.3103,52.57378,322,8569
+19,06G21,Paul-Schneider-Grundschule,Steglitz-Zehlendorf,13.34024,52.43059,316,8885
+20,10G19,Bücherwurm-Schule am Weiher (Grundschule),Marzahn-Hellersdorf,13.62913,52.54067,313,9198
+21,04G07,Ludwig-Cauer-Grundschule,Charlottenburg-Wilmersdorf,13.31604,52.51599,312,9510
+22,08G33,Schule am Fliederbusch (Grundschule),Neukölln,13.48716,52.42361,297,9807
+23,05G32,Lillian-Zeller-Grundschule,Spandau,13.19958,52.55438,288,10095
+24,03G38,Grundschule im Blumenviertel,Pankow,13.45758,52.53515,280,10375
+25,09G31,Wildbienen-Grundschule,Treptow-Köpenick,13.53226,52.4596,276,10651

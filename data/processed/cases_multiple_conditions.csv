@@ -1,0 +1,37 @@
+plr_id,plr_name,bez,children,conditions,low_play_supply,high_env_burden,high_child_poverty,little_living_space,play_m2_per_child_1000,child_poverty_pct,living_space_m2_per_resident,env_burdens
+12601235,Dannenwalder Weg,12 - Reinickendorf,2541.0,4,True,True,True,True,1.3105288924442309,46.98,29.245,dreifach
+07400927,Rathaus Tempelhof,07 - Tempelhof-Schöneberg,1741.0,4,True,True,True,True,2.128599189131225,32.385,34.003,dreifach
+12200310,Klixstraße,12 - Reinickendorf,1606.0,4,True,True,True,True,1.9224261323523073,53.632,29.665,dreifach
+05200527,Maulbeerallee,05 - Spandau,3109.0,3,True,False,True,True,2.4346918299307174,64.49,29.254,keine starke Belastung
+01300836,Humboldthain Nordwest,01 - Mitte,2539.0,3,False,True,True,True,3.5225112384560546,49.282,32.275,vierfach
+10200524,Adele-Sandrock-Straße,10 - Marzahn-Hellersdorf,2390.0,3,True,False,True,True,1.175431457521239,32.665,33.284,keine starke Belastung
+10100206,Wuhletalstraße,10 - Marzahn-Hellersdorf,2235.0,3,True,False,True,True,1.5365903845265099,31.584,33.453,einfach
+08100521,Schulenburgpark,08 - Neukölln,2070.0,3,False,True,True,True,2.695097598178113,64.016,27.794,dreifach
+10200417,Zossener Straße,10 - Marzahn-Hellersdorf,1998.0,3,True,False,True,True,2.403660600834857,37.337,29.877,einfach
+10200422,Hellersdorfer Promenade,10 - Marzahn-Hellersdorf,1744.0,3,True,False,True,True,1.8461682115595808,43.787,28.784,keine starke Belastung
+12601032,Rollbergesiedlung,12 - Reinickendorf,1663.0000000000002,3,True,False,True,True,2.2798578124567332,53.146,31.674,keine starke Belastung
+10100104,Golliner Straße,10 - Marzahn-Hellersdorf,1620.9999999999998,3,True,False,True,True,1.8003994415451086,35.223,31.946,keine starke Belastung
+10200526,Boulevard Kastanienallee,10 - Marzahn-Hellersdorf,1551.0,3,True,False,True,True,2.17808789302722,37.616,28.417,keine starke Belastung
+02100102,Mehringplatz,02 - Friedrichshain-Kreuzberg,1515.0000000000002,3,False,True,True,True,3.8993075936278223,45.744,30.679,dreifach
+02100105,Prinzenstraße,02 - Friedrichshain-Kreuzberg,1510.0,3,False,True,True,True,2.9276489644001904,52.151,29.818,dreifach
+04100102,Paul-Hertz-Siedlung,04 - Charlottenburg-Wilmersdorf,1510.0,3,True,False,True,True,0.9631191656836948,45.631,31.369,zweifach
+10100103,Wittenberger Straße,10 - Marzahn-Hellersdorf,1413.9999999999998,3,True,False,True,True,2.4861555847425607,33.226,31.304,einfach
+08100520,Weiße Siedlung,08 - Neukölln,1349.0,3,True,False,True,True,1.1505248056335562,57.609,23.616,keine starke Belastung
+10200423,Böhlener Straße,10 - Marzahn-Hellersdorf,1300.0000000000002,3,True,False,True,True,1.096734534896973,38.482,25.676,keine starke Belastung
+09300922,Kosmos Viertel,09 - Treptow-Köpenick,1286.9999999999998,3,True,False,True,True,1.3342945893280675,49.379,33.733,einfach
+12200413,Tegel Süd,12 - Reinickendorf,1286.0,3,True,False,True,True,1.9733963251808666,34.656,33.143,keine starke Belastung
+10200525,Schleipfuhl,10 - Marzahn-Hellersdorf,1270.0,3,True,False,True,True,1.0128410445875087,40.955,30.525,keine starke Belastung
+08100209,Glasower Straße,08 - Neukölln,1235.0,3,False,True,True,True,3.894026482741402,39.632,32.049,dreifach
+09200510,Helmholtz-Kiez,09 - Treptow-Köpenick,1223.0,3,True,False,True,True,2.0540702663922326,38.531,33.885,einfach
+01401048,Leopoldplatz,01 - Mitte,1189.0,3,False,True,True,True,3.664946542721316,40.874,32.503,dreifach
+10100101,Marzahn West,10 - Marzahn-Hellersdorf,1147.0,3,True,False,True,True,2.243876015635373,30.876,32.375,einfach
+05100317,Freiheit,05 - Spandau,1116.0,3,True,False,True,True,2.3119565478037174,44.168,26.368,einfach
+08200622,Jahnstraße,08 - Neukölln,1102.0,3,False,True,True,True,4.640947880847123,54.849,27.882,dreifach
+11300721,Herzbergstraße,11 - Lichtenberg,1091.0,3,True,False,True,True,0.14860489903394938,31.508,25.475,keine starke Belastung
+08100105,Silbersteinstraße,08 - Neukölln,1005.0,3,False,True,True,True,4.897429217081207,40.762,28.548,dreifach
+01401045,Schwedenstraße,01 - Mitte,940.0,3,False,True,True,True,3.9389429981938733,46.117,32.081,dreifach
+01200518,Beusselkiez,01 - Mitte,901.0,3,False,True,True,True,5.851505716035496,38.537,32.013,dreifach
+01400939,Glasgower Straße,01 - Mitte,861.0,3,True,False,True,True,2.2849492573801897,39.873,31.804,einfach
+05100206,Griesingerstraße,05 - Spandau,730.0,3,True,False,True,True,1.022646884638228,39.41,29.488,keine starke Belastung
+01200517,Huttenkiez,01 - Mitte,527.0,3,False,True,True,True,4.7340253402965295,41.485,33.402,vierfach
+10200421,Helle Mitte,10 - Marzahn-Hellersdorf,327.0,3,True,True,False,True,2.4944534325703733,18.081,33.534,dreifach

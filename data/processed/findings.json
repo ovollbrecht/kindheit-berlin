@@ -1,0 +1,582 @@
+{
+  "reference": {
+    "population": "31.12.2025 (blocks)",
+    "residents": 3913505,
+    "children_under_18": 627759,
+    "populated_blocks": 15092,
+    "home_locations": 166695,
+    "planning_areas": 542
+  },
+  "straight_line_versus_walking": {
+    "share_of_children_within_threshold": {
+      "200": {
+        "straight_line": 0.571,
+        "walking": 0.3285,
+        "walking_only_secured_main_road_crossings": 0.3232,
+        "walking_without_main_road": 0.3125
+      },
+      "300": {
+        "straight_line": 0.7623,
+        "walking": 0.5392,
+        "walking_only_secured_main_road_crossings": 0.5303,
+        "walking_without_main_road": 0.5034
+      },
+      "400": {
+        "straight_line": 0.8631,
+        "walking": 0.7023,
+        "walking_only_secured_main_road_crossings": 0.6918,
+        "walking_without_main_road": 0.6524
+      },
+      "500": {
+        "straight_line": 0.9204,
+        "walking": 0.8074,
+        "walking_only_secured_main_road_crossings": 0.7983,
+        "walking_without_main_road": 0.7516
+      },
+      "800": {
+        "straight_line": 0.9803,
+        "walking": 0.9371,
+        "walking_only_secured_main_road_crossings": 0.931,
+        "walking_without_main_road": 0.8928
+      },
+      "1000": {
+        "straight_line": 0.99,
+        "walking": 0.9694,
+        "walking_only_secured_main_road_crossings": 0.9652,
+        "walking_without_main_road": 0.9301
+      }
+    },
+    "children_within_400_straight_but_not_walking": 100921,
+    "children_needing_main_road_crossing_for_400": 31295,
+    "children_needing_unsecured_main_road_crossing_for_400": 6604,
+    "walking_distance_quantiles_m": {
+      "p10": 80.71,
+      "p25": 162.47,
+      "p50": 280.01,
+      "p75": 439.67,
+      "p90": 664.89
+    },
+    "straight_distance_quantiles_m": {
+      "p10": 40.57,
+      "p25": 93.43,
+      "p50": 173.35,
+      "p75": 291.65,
+      "p90": 459.5
+    }
+  },
+  "barriers": {
+    "children_affected": 100921,
+    "share_by_barrier_on_straight_line": {
+      "railway": 0.0738,
+      "motorway": 0.0135,
+      "water": 0.0245,
+      "no_linear_barrier": 0.8993
+    },
+    "children_with_walk_over_800_despite_400_straight": 2078
+  },
+  "supply_per_child": {
+    "net_play_area_ha": 236.1,
+    "city_m2_per_resident": 0.603,
+    "city_m2_per_child": 3.76,
+    "reachable_m2_per_child_400_quantiles": {
+      "p10": 0.0,
+      "p25": 0.0,
+      "p50": 2.39,
+      "p75": 5.07,
+      "p90": 8.68
+    },
+    "reachable_m2_per_child_1000_quantiles": {
+      "p10": 1.22,
+      "p25": 2.29,
+      "p50": 3.45,
+      "p75": 4.75,
+      "p90": 6.27
+    },
+    "share_children_no_playground_within_400": 0.3026,
+    "share_children_below_1_m2_within_400": 0.3718,
+    "share_children_above_city_average_within_400": 0.3635,
+    "planning_areas_without_playground_inside": 44,
+    "children_in_planning_areas_without_playground_inside": 29970,
+    "of_those_children_with_playground_within_400_walking": 10960,
+    "spearman_per_resident_inside_vs_per_child_reachable": 0.55
+  },
+  "by_social_status": {
+    "hoch": {
+      "planning_areas": 86,
+      "children": 85558,
+      "share_playground_400_walking": 0.467,
+      "reachable_m2_per_child_400": 3.37,
+      "reachable_m2_per_child_1000": 3.21,
+      "share_teens_youth_facility_1000": 0.376,
+      "youth_places_per_100_teens": 9.8,
+      "share_green_400_walking": 0.564,
+      "residents_per_ha": 80.0,
+      "children_change_2022_2025": -0.021
+    },
+    "mittel": {
+      "planning_areas": 356,
+      "children": 407731,
+      "share_playground_400_walking": 0.745,
+      "reachable_m2_per_child_400": 3.83,
+      "reachable_m2_per_child_1000": 3.9,
+      "share_teens_youth_facility_1000": 0.789,
+      "youth_places_per_100_teens": 16.7,
+      "share_green_400_walking": 0.68,
+      "residents_per_ha": 207.0,
+      "children_change_2022_2025": -0.001
+    },
+    "niedrig": {
+      "planning_areas": 43,
+      "children": 55205,
+      "share_playground_400_walking": 0.767,
+      "reachable_m2_per_child_400": 4.02,
+      "reachable_m2_per_child_1000": 4.15,
+      "share_teens_youth_facility_1000": 0.922,
+      "youth_places_per_100_teens": 20.9,
+      "share_green_400_walking": 0.794,
+      "residents_per_ha": 221.0,
+      "children_change_2022_2025": -0.032
+    },
+    "sehr niedrig": {
+      "planning_areas": 49,
+      "children": 78870,
+      "share_playground_400_walking": 0.694,
+      "reachable_m2_per_child_400": 3.36,
+      "reachable_m2_per_child_1000": 3.4,
+      "share_teens_youth_facility_1000": 0.969,
+      "youth_places_per_100_teens": 20.9,
+      "share_green_400_walking": 0.802,
+      "residents_per_ha": 225.0,
+      "children_change_2022_2025": -0.013
+    }
+  },
+  "by_city_zone": {
+    "Innere Stadt": {
+      "planning_areas": 186,
+      "children": 215361,
+      "share_playground_400_walking": 0.899,
+      "reachable_m2_per_child_400": 4.12,
+      "reachable_m2_per_child_1000": 4.17,
+      "share_teens_youth_facility_1000": 0.942,
+      "youth_places_per_100_teens": 19.5,
+      "share_green_400_walking": 0.716,
+      "residents_per_ha": 301.0,
+      "children_change_2022_2025": -0.05
+    },
+    "Äußere Stadt": {
+      "planning_areas": 349,
+      "children": 412261,
+      "share_playground_400_walking": 0.6,
+      "reachable_m2_per_child_400": 3.52,
+      "reachable_m2_per_child_1000": 3.55,
+      "share_teens_youth_facility_1000": 0.672,
+      "youth_places_per_100_teens": 15.2,
+      "share_green_400_walking": 0.676,
+      "residents_per_ha": 137.0,
+      "children_change_2022_2025": 0.016
+    }
+  },
+  "by_district": {
+    "01 - Mitte": {
+      "planning_areas": 49,
+      "children": 57856,
+      "share_playground_400_walking": 0.883,
+      "reachable_m2_per_child_400": 3.79,
+      "reachable_m2_per_child_1000": 3.96,
+      "share_teens_youth_facility_1000": 0.942,
+      "youth_places_per_100_teens": 20.2,
+      "share_green_400_walking": 0.781,
+      "residents_per_ha": 271.0,
+      "children_change_2022_2025": -0.054
+    },
+    "02 - Friedrichshain-Kreuzberg": {
+      "planning_areas": 36,
+      "children": 42039,
+      "share_playground_400_walking": 0.943,
+      "reachable_m2_per_child_400": 4.51,
+      "reachable_m2_per_child_1000": 4.51,
+      "share_teens_youth_facility_1000": 0.94,
+      "youth_places_per_100_teens": 20.7,
+      "share_green_400_walking": 0.814,
+      "residents_per_ha": 319.0,
+      "children_change_2022_2025": -0.06
+    },
+    "03 - Pankow": {
+      "planning_areas": 58,
+      "children": 71667,
+      "share_playground_400_walking": 0.773,
+      "reachable_m2_per_child_400": 4.03,
+      "reachable_m2_per_child_1000": 4.01,
+      "share_teens_youth_facility_1000": 0.79,
+      "youth_places_per_100_teens": 19.9,
+      "share_green_400_walking": 0.64,
+      "residents_per_ha": 209.0,
+      "children_change_2022_2025": -0.036
+    },
+    "04 - Charlottenburg-Wilmersdorf": {
+      "planning_areas": 52,
+      "children": 46391,
+      "share_playground_400_walking": 0.737,
+      "reachable_m2_per_child_400": 3.57,
+      "reachable_m2_per_child_1000": 3.56,
+      "share_teens_youth_facility_1000": 0.729,
+      "youth_places_per_100_teens": 11.9,
+      "share_green_400_walking": 0.65,
+      "residents_per_ha": 223.0,
+      "children_change_2022_2025": -0.02
+    },
+    "05 - Spandau": {
+      "planning_areas": 43,
+      "children": 47880,
+      "share_playground_400_walking": 0.564,
+      "reachable_m2_per_child_400": 3.31,
+      "reachable_m2_per_child_1000": 3.3,
+      "share_teens_youth_facility_1000": 0.714,
+      "youth_places_per_100_teens": 13.0,
+      "share_green_400_walking": 0.769,
+      "residents_per_ha": 139.0,
+      "children_change_2022_2025": 0.03
+    },
+    "06 - Steglitz-Zehlendorf": {
+      "planning_areas": 43,
+      "children": 47673,
+      "share_playground_400_walking": 0.559,
+      "reachable_m2_per_child_400": 3.59,
+      "reachable_m2_per_child_1000": 3.58,
+      "share_teens_youth_facility_1000": 0.537,
+      "youth_places_per_100_teens": 14.2,
+      "share_green_400_walking": 0.633,
+      "residents_per_ha": 106.0,
+      "children_change_2022_2025": -0.035
+    },
+    "07 - Tempelhof-Schöneberg": {
+      "planning_areas": 48,
+      "children": 55367,
+      "share_playground_400_walking": 0.718,
+      "reachable_m2_per_child_400": 3.68,
+      "reachable_m2_per_child_1000": 3.78,
+      "share_teens_youth_facility_1000": 0.812,
+      "youth_places_per_100_teens": 14.9,
+      "share_green_400_walking": 0.547,
+      "residents_per_ha": 188.0,
+      "children_change_2022_2025": -0.009
+    },
+    "08 - Neukölln": {
+      "planning_areas": 46,
+      "children": 53290,
+      "share_playground_400_walking": 0.674,
+      "reachable_m2_per_child_400": 4.06,
+      "reachable_m2_per_child_1000": 4.1,
+      "share_teens_youth_facility_1000": 0.792,
+      "youth_places_per_100_teens": 17.8,
+      "share_green_400_walking": 0.657,
+      "residents_per_ha": 211.0,
+      "children_change_2022_2025": -0.012
+    },
+    "09 - Treptow-Köpenick": {
+      "planning_areas": 43,
+      "children": 49880,
+      "share_playground_400_walking": 0.593,
+      "reachable_m2_per_child_400": 3.28,
+      "reachable_m2_per_child_1000": 3.56,
+      "share_teens_youth_facility_1000": 0.576,
+      "youth_places_per_100_teens": 17.5,
+      "share_green_400_walking": 0.582,
+      "residents_per_ha": 101.0,
+      "children_change_2022_2025": 0.054
+    },
+    "10 - Marzahn-Hellersdorf": {
+      "planning_areas": 41,
+      "children": 54427,
+      "share_playground_400_walking": 0.657,
+      "reachable_m2_per_child_400": 2.67,
+      "reachable_m2_per_child_1000": 2.66,
+      "share_teens_youth_facility_1000": 0.76,
+      "youth_places_per_100_teens": 16.9,
+      "share_green_400_walking": 0.804,
+      "residents_per_ha": 200.0,
+      "children_change_2022_2025": 0.04
+    },
+    "11 - Lichtenberg": {
+      "planning_areas": 41,
+      "children": 55450,
+      "share_playground_400_walking": 0.811,
+      "reachable_m2_per_child_400": 4.08,
+      "reachable_m2_per_child_1000": 3.99,
+      "share_teens_youth_facility_1000": 0.869,
+      "youth_places_per_100_teens": 15.5,
+      "share_green_400_walking": 0.744,
+      "residents_per_ha": 213.0,
+      "children_change_2022_2025": 0.03
+    },
+    "12 - Reinickendorf": {
+      "planning_areas": 35,
+      "children": 45702,
+      "share_playground_400_walking": 0.457,
+      "reachable_m2_per_child_400": 4.12,
+      "reachable_m2_per_child_1000": 4.12,
+      "share_teens_youth_facility_1000": 0.668,
+      "youth_places_per_100_teens": 15.4,
+      "share_green_400_walking": 0.679,
+      "residents_per_ha": 128.0,
+      "children_change_2022_2025": -0.006
+    }
+  },
+  "by_environmental_burden": {
+    "dreifach": {
+      "planning_areas": 81,
+      "children": 94013,
+      "share_playground_400_walking": 0.871,
+      "reachable_m2_per_child_400": 3.32,
+      "reachable_m2_per_child_1000": 3.76,
+      "share_teens_youth_facility_1000": 0.94,
+      "youth_places_per_100_teens": 18.9,
+      "share_green_400_walking": 0.656,
+      "residents_per_ha": 314.0,
+      "children_change_2022_2025": -0.055
+    },
+    "einfach": {
+      "planning_areas": 137,
+      "children": 148868,
+      "share_playground_400_walking": 0.714,
+      "reachable_m2_per_child_400": 3.75,
+      "reachable_m2_per_child_1000": 3.81,
+      "share_teens_youth_facility_1000": 0.782,
+      "youth_places_per_100_teens": 16.8,
+      "share_green_400_walking": 0.725,
+      "residents_per_ha": 188.0,
+      "children_change_2022_2025": -0.003
+    },
+    "keine starke Belastung": {
+      "planning_areas": 221,
+      "children": 272434,
+      "share_playground_400_walking": 0.574,
+      "reachable_m2_per_child_400": 3.71,
+      "reachable_m2_per_child_1000": 3.63,
+      "share_teens_youth_facility_1000": 0.64,
+      "youth_places_per_100_teens": 15.3,
+      "share_green_400_walking": 0.679,
+      "residents_per_ha": 125.0,
+      "children_change_2022_2025": 0.019
+    },
+    "vierfach": {
+      "planning_areas": 15,
+      "children": 13948,
+      "share_playground_400_walking": 0.822,
+      "reachable_m2_per_child_400": 4.02,
+      "reachable_m2_per_child_1000": 3.74,
+      "share_teens_youth_facility_1000": 0.817,
+      "youth_places_per_100_teens": 14.6,
+      "share_green_400_walking": 0.551,
+      "residents_per_ha": 245.0,
+      "children_change_2022_2025": -0.056
+    },
+    "zweifach": {
+      "planning_areas": 81,
+      "children": 98359,
+      "share_playground_400_walking": 0.864,
+      "reachable_m2_per_child_400": 4.07,
+      "reachable_m2_per_child_1000": 4.06,
+      "share_teens_youth_facility_1000": 0.912,
+      "youth_places_per_100_teens": 18.4,
+      "share_green_400_walking": 0.719,
+      "residents_per_ha": 269.0,
+      "children_change_2022_2025": -0.033
+    }
+  },
+  "housing_types": {
+    "children_in_garden_housing": 115269,
+    "children_in_multi_storey_housing": 512490,
+    "share_400_walking_garden_housing": 0.3964,
+    "share_400_walking_multi_storey": 0.7711,
+    "children_multi_storey_without_playground_400": 117311,
+    "children_multi_storey_without_playground_400_incl_osm": 40876,
+    "children_multi_storey_without_playground_800": 17150,
+    "children_in_large_housing_estates": 119900,
+    "share_400_walking_large_housing_estates": 0.6979,
+    "reachable_m2_per_child_400_large_estates": 3.54,
+    "reachable_m2_per_child_400_old_dense_blocks": 4.15
+  },
+  "age_groups": {
+    "children_0_5": 201476,
+    "children_6_9": 146969,
+    "children_10_17": 279314,
+    "share_0_5_playground_within_200": 0.3345,
+    "share_0_5_daycare_within_400": 0.7731,
+    "share_6_9_playground_within_400": 0.7006,
+    "share_6_9_primary_school_within_1000": 0.8348,
+    "median_primary_school_m": 597.3,
+    "median_library_m": 1119.02,
+    "share_children_library_within_1000": 0.4302,
+    "share_10_17_youth_facility_within_1000": 0.7629,
+    "teens_without_youth_facility_within_1000": 66216,
+    "teens_without_youth_facility_within_2000": 11904,
+    "median_youth_facility_m": 595.61,
+    "median_playground_m": 280.01,
+    "median_daycare_m": 243.79,
+    "median_sports_site_m": 424.63,
+    "youth_places_per_100_teens_quantiles": {
+      "p10": 0.0,
+      "p25": 2.38,
+      "p50": 14.95,
+      "p75": 24.56,
+      "p90": 35.75
+    }
+  },
+  "growth_2022_2025": {
+    "children_2022": 632848,
+    "children_2025": 627759,
+    "city_change": -0.008,
+    "planning_areas_growing_10pct": 61,
+    "children_added_in_growing_areas": 10884,
+    "share_400_walking_growing": 0.615,
+    "share_400_walking_shrinking": 0.775,
+    "reachable_m2_per_child_1000_growing": 3.188,
+    "reachable_m2_per_child_1000_shrinking": 3.821,
+    "spearman_change_vs_share_400": -0.23,
+    "by_city_zone": {
+      "Innere Stadt": -0.0504,
+      "Äußere Stadt": 0.0156
+    }
+  },
+  "osm_robustness": {
+    "osm_playgrounds_in_berlin": 5544,
+    "osm_playgrounds_not_marked_private": 4482,
+    "osm_playgrounds_with_wheelchair_tag": 784,
+    "osm_playgrounds_wheelchair_yes": 418,
+    "official_public_playgrounds": 1886,
+    "share_children_400_walking_official_only": 0.7023,
+    "share_children_400_walking_official_plus_osm": 0.8441,
+    "share_children_large_estates_400_official_only": 0.6979,
+    "share_children_large_estates_400_official_plus_osm": 0.9694,
+    "children_multi_storey_without_any_playground_400": 40876
+  },
+  "detours": {
+    "median_detour_factor": 1.45,
+    "share_children_by_detour_factor": {
+      "0-1.25": 0.2338,
+      "1.25-1.5": 0.3258,
+      "1.5-2.0": 0.2771,
+      "2.0-3.0": 0.1192,
+      "3.0-inf": 0.044
+    },
+    "children_with_factor_3_or_more": 27614
+  },
+  "commercial_areas": {
+    "children": 7229,
+    "share_playground_400_walking": 0.4646,
+    "share_playground_400_walking_incl_osm": 0.6153,
+    "median_playground_m": 432.71
+  },
+  "schoolyard_scenario": {
+    "public_primary_schools": 387,
+    "children_without_playground_400": 186882,
+    "newly_reached_if_all_yards_open": 29470,
+    "newly_reached_top_10": 5800,
+    "newly_reached_top_25": 10651
+  },
+  "schoolyard_scenario_incl_osm": {
+    "public_primary_schools": 387,
+    "children_without_playground_400": 97875,
+    "newly_reached_if_all_yards_open": 11006,
+    "newly_reached_top_10": 2477,
+    "newly_reached_top_25": 4799
+  },
+  "new_playground_scenario_incl_osm": {
+    "candidate_green_spaces": 994,
+    "children_without_playground_400": 97875,
+    "newly_reached_top_10": 4827,
+    "newly_reached_top_25": 9806,
+    "top_25_of_those_in_multi_storey_housing": 4670
+  },
+  "accidents_around_primary_schools": {
+    "accidents_with_pedestrians_or_cyclists_2018_2024": 43041,
+    "of_those_on_weekdays_at_school_run_hours": 16163,
+    "school_run_accidents_within_250m_of_a_public_primary_school": 2766,
+    "median_per_school": 5.0,
+    "p90_per_school": 17.0,
+    "max_per_school": 44,
+    "schools_without_any": 38
+  },
+  "daycare_capacity": {
+    "daycare_facilities": 2905,
+    "facilities_without_capacity_value": 22,
+    "licensed_places": 187229,
+    "children_0_5": 201476,
+    "city_places_per_child_0_5": 0.929,
+    "reachable_places_per_child_1000_quantiles": {
+      "p10": 0.44,
+      "p25": 0.66,
+      "p50": 0.91,
+      "p75": 1.16,
+      "p90": 1.41
+    },
+    "spearman_places_per_child_vs_child_poverty": -0.07,
+    "places_per_child_by_status": {
+      "hoch": 0.93,
+      "mittel": 0.94,
+      "niedrig": 0.93,
+      "sehr niedrig": 0.86
+    }
+  },
+  "new_playground_scenario": {
+    "candidate_green_spaces": 994,
+    "children_without_playground_400": 186882,
+    "newly_reached_top_10": 10437,
+    "newly_reached_top_25": 20097,
+    "top_25_of_those_in_multi_storey_housing": 16897
+  },
+  "multiple_disadvantage": {
+    "planning_areas_considered": 535,
+    "children_by_number_of_conditions": {
+      "0": 243047,
+      "1": 202602,
+      "2": 129330,
+      "3": 46755,
+      "4": 5888
+    },
+    "planning_areas_by_number_of_conditions": {
+      "0": 213,
+      "1": 185,
+      "2": 101,
+      "3": 33,
+      "4": 3
+    },
+    "share_high_env_burden_areas_with_low_play_supply": 0.188,
+    "share_other_areas_with_low_play_supply": 0.264,
+    "share_children_400_walking_high_env_burden": 0.864,
+    "share_children_400_walking_no_strong_burden": 0.574
+  },
+  "correlations_spearman": {
+    "child_poverty_pct ~ playground_share_400_net": 0.22,
+    "child_poverty_pct ~ play_m2_per_child_1000": 0.11,
+    "child_poverty_pct ~ youth_median_m": -0.45,
+    "residents_per_ha_populated ~ playground_share_400_net": 0.72,
+    "residents_per_ha_populated ~ play_m2_per_child_1000": 0.3,
+    "living_space_m2_per_resident ~ playground_share_400_net": -0.28,
+    "child_share ~ play_m2_per_child_1000": -0.21,
+    "children_change_2022_2025 ~ playground_share_400_net": -0.23,
+    "children_change_2022_2025 ~ youth_median_m": 0.21
+  },
+  "police_statistics_2025": {
+    "people_involved": 270740,
+    "accidents": 137373,
+    "children_involved": 908,
+    "adolescents_involved": 659,
+    "accidents_with_children_or_adolescents": 1516,
+    "has_coordinates": false
+  },
+  "data_gaps": {
+    "playgrounds": 1886,
+    "playgrounds_without_construction_year": 1119,
+    "playgrounds_without_renovation_year": 1377,
+    "playgrounds_net_area_zero": 40,
+    "playgrounds_without_dedication_status": 82,
+    "playground_attributes_on_accessibility_or_equipment": 0,
+    "youth_facilities": 418,
+    "youth_facilities_with_target_group_flag": 78,
+    "sports_sites": 1085,
+    "sports_sites_without_area": 508,
+    "sports_sites_on_school_grounds": 745
+  }
+}

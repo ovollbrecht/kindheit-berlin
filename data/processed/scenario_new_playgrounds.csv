@@ -1,0 +1,26 @@
+step,id,name,district,lon,lat,area_m2,children_newly_reached,of_those_in_multi_storey_housing,cumulative
+1,00008100:001c930f,Liebenwalder Str. 2-10 / Arendsweg 3-17,Lichtenberg,13.50427,52.53644,9108.0,1520,1470,1520
+2,00008100:001041ec,Schorfheidestr. - Dannenwalder Weg,Reinickendorf,13.34551,52.59139,4320.4,1331,1066,2851
+3,00008100:0012d9b2,Britzer Str. 38 (Nord),Tempelhof-Schöneberg,13.40679,52.44055,26129.0,1115,674,3966
+4,00008100:001041eb,"Treuenbrietzener Str./Packereigraben, Grünanlage",Reinickendorf,13.36194,52.59994,5142.2,1084,1084,5050
+5,00008100:00199353,Windschutzstreifen (Verlängerung),Marzahn-Hellersdorf,13.62491,52.53643,8897.0,1032,1032,6082
+6,00008100:00199456,Karl-Holtz-Platz,Marzahn-Hellersdorf,13.56912,52.5532,5259.0,1031,1030,7113
+7,00008100:0012d9de,Lichtenrader Graben Ost,Tempelhof-Schöneberg,13.41732,52.3913,10770.0,894,804,8007
+8,00008100:001044c0,"Friedhof Am Fließtal, Entwidmungsfläche",Reinickendorf,13.28998,52.59617,2421.9,889,303,8896
+9,00008100:00199404,"Hellersdorfer Weg, Kohlbeke",Marzahn-Hellersdorf,13.55447,52.56214,26154.2,797,779,9693
+10,00008100:0011dde8,Bullengrabengrünzug II,Spandau,13.1721,52.53083,34949.0,744,489,10437
+11,00008100:0011e10c,Paulsternstr. 34,Spandau,13.24818,52.54417,5140.0,739,734,11176
+12,00008100:0011e03c,Pionierstraße-Grünstreifen vor Friedhof,Spandau,13.18222,52.55269,8700.0,725,646,11901
+13,00008100:000e3a5d,Potsdamer Chaussee WG - Teil 2/2,Steglitz-Zehlendorf,13.21639,52.4275,37195.3,712,379,12613
+14,00008100:0014b814,Boyenstr. am  Erika-Heß-Eisstadion,Mitte,13.37044,52.53702,9814.8,702,681,13315
+15,00008100:00199432,Weidefläche Park am Weidengrund,Marzahn-Hellersdorf,13.57901,52.55932,50152.0,675,675,13990
+16,00008100:001c6704,Gerosteig /Ortolfstraße Ag GA,Treptow-Köpenick,13.53022,52.40874,19774.0,675,446,14665
+17,00008100:0011de4f,Spektegrünzug D-südl Teil,Spandau,13.14853,52.55773,43557.0,663,542,15328
+18,00008100:0011dde2,Hahneberg-GA Wege und Plateau,Spandau,13.14891,52.51914,36409.0,658,536,15986
+19,00008100:002afcc9,Bullengrabengrünzug IV-Stieglake,Spandau,13.14533,52.53016,65797.0,641,603,16627
+20,00008100:000e38a4,Clayallee WG,Steglitz-Zehlendorf,13.2762,52.4681,22263.9,625,213,17252
+21,00008100:000a6d1d,Herbert-Krause Park,Neukölln,13.47057,52.46487,6330.0,619,619,17871
+22,00008100:0010420e,Finsterwalderstr. 62-28 ggü - Grünzug,Reinickendorf,13.34344,52.6011,3682.0,573,484,18444
+23,00008100:0019945c,"Grünanlage WG 3,3 zw.Schleipfuhl u.Kita",Marzahn-Hellersdorf,13.61198,52.52959,2142.0,560,515,19004
+24,00008100:0029e301,"Volkspark Humboldthain, Gewässerlauf",Mitte,13.38791,52.54622,2352.0,549,549,19553
+25,00008100:0011ddcf,Ruhlebener Str-Grunewaldstraße-GA,Spandau,13.20601,52.52993,8977.0,544,544,20097

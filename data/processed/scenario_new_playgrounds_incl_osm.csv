@@ -1,0 +1,26 @@
+step,id,name,district,lon,lat,area_m2,children_newly_reached,of_those_in_multi_storey_housing,cumulative
+1,00008100:002afcc9,Bullengrabengrünzug IV-Stieglake,Spandau,13.14533,52.53016,65797.0,641,603,641
+2,00008100:001044c0,"Friedhof Am Fließtal, Entwidmungsfläche",Reinickendorf,13.28998,52.59617,2421.9,547,178,1188
+3,00008100:0011dde8,Bullengrabengrünzug II,Spandau,13.1721,52.53083,34949.0,513,360,1701
+4,00008100:0011e0e8,Roonstraße parallel Falkenseer Damm-,Spandau,13.20095,52.54099,3920.0,508,508,2209
+5,00008100:0012d9b2,Britzer Str. 38 (Nord),Tempelhof-Schöneberg,13.40679,52.44055,26129.0,475,247,2684
+6,00008100:0011deb7,Verlängerte Uferpromenade-Straße 133,Spandau,13.11667,52.45501,66678.0,474,10,3158
+7,00008100:000e3c44,Teltowkanalpromenade - Teil 1/3,Steglitz-Zehlendorf,13.31767,52.4359,19605.0,454,235,3612
+8,00008100:001042c4,"Edelhofdamm, R.A.B.",Reinickendorf,13.29933,52.63526,23906.1,418,0,4030
+9,00008100:0016d290,Blankenburger Pflasterweg nördlich,Pankow,13.48216,52.58806,213504.0,399,3,4429
+10,00008100:000e385e,Krummes Fenn N,Steglitz-Zehlendorf,13.23041,52.4238,72807.0,398,184,4827
+11,00008100:001042c8,Am Ziegeleisee/Lehmgrubenteich,Reinickendorf,13.33572,52.61666,6924.2,393,37,5220
+12,00008100:0011ddcf,Ruhlebener Str-Grunewaldstraße-GA,Spandau,13.20601,52.52993,8977.0,372,372,5592
+13,00008100:000e3866,Rehwiese N,Steglitz-Zehlendorf,13.19951,52.42812,150218.6,369,82,5961
+14,00008100:0019918c,"Biesdorfer Promenade, Biesdorf/ Nord",Marzahn-Hellersdorf,13.55889,52.51771,15828.0,357,4,6318
+15,00008100:000e3c79,Bismarckstraße 50 WG,Steglitz-Zehlendorf,13.33939,52.45405,2250.0,352,352,6670
+16,00008100:0014b9dc,Park an der Südpanke,Mitte,13.37443,52.53331,22033.0,341,320,7011
+17,00008100:000a6df3,E. Keller BR.-Hafen Rudow West,Neukölln,13.48007,52.44132,22721.0,338,1,7349
+18,00008100:000e3a5a,Potsdamer Chaussee WG - Teil 1/2,Steglitz-Zehlendorf,13.23452,52.43169,25433.0,332,75,7681
+19,00008100:001c92d8,Flächen nördl. Zehnrutenweg,Lichtenberg,13.55482,52.57703,158776.0,331,44,8012
+20,00008100:000e3984,Onkel-Toms-Hütte N,Steglitz-Zehlendorf,13.24752,52.45486,19490.0,330,37,8342
+21,00008100:000e38a4,Clayallee WG,Steglitz-Zehlendorf,13.2762,52.4681,22263.9,323,15,8665
+22,00008100:000a6b73,Schloßgarten Britz,Neukölln,13.4394,52.44644,24554.0,288,199,8953
+23,00008100:000a6ca7,Delfter Ufer-Grünanlage,Neukölln,13.45312,52.45915,24679.0,287,284,9240
+24,00008100:001c9408,Herzbergstr. 79 / nördlich,Lichtenberg,13.50649,52.52992,8166.0,286,240,9526
+25,00008100:0012d9a1,Metzplatz,Tempelhof-Schöneberg,13.38745,52.45909,2097.0,280,280,9806

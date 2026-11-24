@@ -1,0 +1,10 @@
+dist
+node_modules
+.venv
+data
+public/data
+docs
+*.md
+.e2e-site
+playwright-report
+test-results
